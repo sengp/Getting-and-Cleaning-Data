@@ -1,23 +1,23 @@
-# Getting-and-Cleaning-Data
-# Code Book
+Getting-and-Cleaning-Data
+Code Book
 This code book was prepared for the Coursera Class: Getting and Cleaning Data. This program will prepare a tidy data set with the average of each variable for each activity and each subject. This uses data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
-## Datafiles are from 
+Datafiles are from 
 Human Activity Recognition Using Smartphones Dataset Version 1.0
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-## The run_analysis.R does the following: 
+The run_analysis.R does the following: 
 1) Merges the training and test sets to create one data set.
 2) Extracts only the measurements on the mean and standard deviation for each measurement.
 3) Uses descriptive activity names to name the activities in the data set.
 4) Labels the data set with descriptive variable names.
 5) Creates an independent tidy data set with the average of each variable for each activity and each subject.
 
-## The dimensions in the data set are:
+The dimensions in the data set are:
 subjectID – integer : unique identifier for each subject in the study (1-30)
 activity – string: Laying, Sitting, Standing, Walking, Walking Downstairs, Walking Upstairs
 
-## The measures in the data set are means of each variable by activity and subject:
+The measures in the data set are means of each variable by activity and subject:
 TimeBodyAcc-mean()-X
 TimeBodyAcc-mean()-Y
 TimeBodyAcc-mean()-Z
