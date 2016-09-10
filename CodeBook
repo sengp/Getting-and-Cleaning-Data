@@ -1,4 +1,3 @@
-Enter file contents here
 Getting-and-Cleaning-Data
 Code Book
 This code book was prepared for the Coursera Class: Getting and Cleaning Data. This program will prepare a tidy data set with the average of each variable for each activity and each subject. This uses data collected from the accelerometers from the Samsung Galaxy S smartphone.
